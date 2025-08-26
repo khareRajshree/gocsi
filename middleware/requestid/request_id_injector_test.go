@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	csictx "github.com/dell/gocsi/context"
+	csictx "github.com/khareRajshree/gocsi/context"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"

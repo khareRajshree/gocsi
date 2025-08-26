@@ -12,7 +12,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	mwtypes "github.com/dell/gocsi/middleware/serialvolume/lockprovider"
+	mwtypes "github.com/khareRajshree/gocsi/middleware/serialvolume/lockprovider"
 )
 
 const pending = "pending"

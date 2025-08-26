@@ -14,7 +14,7 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/status"
 
-	"github.com/dell/gocsi/mock/provider"
+	"github.com/khareRajshree/gocsi/mock/provider"
 )
 
 func startMockServer(ctx context.Context) (*grpc.ClientConn, func(), error) {

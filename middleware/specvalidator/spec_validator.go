@@ -16,7 +16,7 @@ import (
 
 	"github.com/container-storage-interface/spec/lib/go/csi"
 
-	"github.com/dell/gocsi/utils/middleware"
+	"github.com/khareRajshree/gocsi/utils/middleware"
 )
 
 // Option configures the spec validator interceptor.

@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 
 	"github.com/container-storage-interface/spec/lib/go/csi"
-	utils "github.com/dell/gocsi/utils/csi"
+	utils "github.com/khareRajshree/gocsi/utils/csi"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 
@@ -22,7 +22,7 @@ const (
 
 // Manifest is the SP's manifest.
 var Manifest = map[string]string{
-	"url": "https://github.com/dell/gocsi/tree/master/mock",
+	"url": "https://github.com/khareRajshree/gocsi/tree/master/mock",
 }
 
 // Service is the CSI Mock service provider.
