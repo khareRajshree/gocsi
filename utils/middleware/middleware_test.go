@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/container-storage-interface/spec/lib/go/csi"
-	"github.com/dell/gocsi/utils/middleware"
+	"github.com/khareRajshree/gocsi/utils/middleware"
 	log "github.com/sirupsen/logrus"
 
 	"github.com/stretchr/testify/assert"

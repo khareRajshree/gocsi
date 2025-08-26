@@ -5,7 +5,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/dell/gocsi/utils/rpcs"
+	"github.com/khareRajshree/gocsi/utils/rpcs"
 
 	"github.com/onsi/ginkgo"
 	"github.com/onsi/gomega"

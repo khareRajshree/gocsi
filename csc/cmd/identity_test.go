@@ -6,7 +6,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/dell/gocsi/mock/service"
+	"github.com/khareRajshree/gocsi/mock/service"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/assert"
 )
@@ -81,7 +81,7 @@ func TestGetPluginInfoCmd(t *testing.T) {
 	assert.NoError(t, err)
 
 	out := b.String()
-	want := `"mock.gocsi.rexray.com"	"1.1.0"	"url"="https://github.com/dell/gocsi/tree/master/mock"
+	want := `"mock.gocsi.rexray.com"	"1.1.0"	"url"="https://github.com/khareRajshree/gocsi/tree/master/mock"
 `
 	assert.Equal(t, want, out)
 }

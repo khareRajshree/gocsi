@@ -1,4 +1,4 @@
-module github.com/dell/gocsi
+module github.com/khareRajshree/gocsi
 
 go 1.24
 

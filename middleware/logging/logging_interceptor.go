@@ -12,8 +12,8 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	csictx "github.com/dell/gocsi/context"
-	"github.com/dell/gocsi/utils/middleware"
+	csictx "github.com/khareRajshree/gocsi/context"
+	"github.com/khareRajshree/gocsi/utils/middleware"
 )
 
 // Option configures the logging interceptor.

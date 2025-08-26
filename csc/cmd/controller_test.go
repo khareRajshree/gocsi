@@ -7,8 +7,8 @@ import (
 	"text/template"
 
 	"github.com/container-storage-interface/spec/lib/go/csi"
-	"github.com/dell/gocsi/mock/service"
-	utils "github.com/dell/gocsi/utils/csi"
+	"github.com/khareRajshree/gocsi/mock/service"
+	utils "github.com/khareRajshree/gocsi/utils/csi"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/assert"
 )
