@@ -21,8 +21,8 @@ invoke the `GetPluginInfo` RPC:
 
 ```shell
 $ docker run -it golang:latest sh -c \
-  "go get github.com/dell/gocsi && \
-  make -C src/github.com/dell/gocsi csi-sp"
+  "go get github.com/khareRajshree/gocsi && \
+  make -C src/github.com/khareRajshree/gocsi csi-sp"
 ```
 
 <a name="bootstrapper"></a>
@@ -41,28 +41,28 @@ usage: ./gocsi.sh GO_IMPORT_PATH
 
 The GoCSI [Mock SP](./mock) illustrates the features and configuration options
 available via the bootstrapping method. The following example demonstrates
-creating a new SP at the Go import path `github.com/dell/csi-sp`:
+creating a new SP at the Go import path `github.com/khareRajshree/csi-sp`:
 
 ```shell
-$ ./gocsi.sh github.com/dell/csi-sp
+$ ./gocsi.sh github.com/khareRajshree/csi-sp
 creating project directories:
-  /home/akutz/go/src/github.com/dell/csi-sp
-  /home/akutz/go/src/github.com/dell/csi-sp/provider
-  /home/akutz/go/src/github.com/dell/csi-sp/service
+  /home/akutz/go/src/github.com/khareRajshree/csi-sp
+  /home/akutz/go/src/github.com/khareRajshree/csi-sp/provider
+  /home/akutz/go/src/github.com/khareRajshree/csi-sp/service
 creating project files:
-  /home/akutz/go/src/github.com/dell/csi-sp/main.go
-  /home/akutz/go/src/github.com/dell/csi-sp/provider/provider.go
-  /home/akutz/go/src/github.com/dell/csi-sp/service/service.go
-  /home/akutz/go/src/github.com/dell/csi-sp/service/controller.go
-  /home/akutz/go/src/github.com/dell/csi-sp/service/identity.go
-  /home/akutz/go/src/github.com/dell/csi-sp/service/node.go
+  /home/akutz/go/src/github.com/khareRajshree/csi-sp/main.go
+  /home/akutz/go/src/github.com/khareRajshree/csi-sp/provider/provider.go
+  /home/akutz/go/src/github.com/khareRajshree/csi-sp/service/service.go
+  /home/akutz/go/src/github.com/khareRajshree/csi-sp/service/controller.go
+  /home/akutz/go/src/github.com/khareRajshree/csi-sp/service/identity.go
+  /home/akutz/go/src/github.com/khareRajshree/csi-sp/service/node.go
 use golang/dep? Enter yes (default) or no and press [ENTER]:
   downloading golang/dep@v0.3.2
   executing dep init
 building csi-sp:
   success!
   example: CSI_ENDPOINT=csi.sock \
-           /home/akutz/go/src/github.com/dell/csi-sp/csi-sp
+           /home/akutz/go/src/github.com/khareRajshree/csi-sp/csi-sp
 ```
 
 The new SP adheres to the following structure:

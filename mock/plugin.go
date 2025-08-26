@@ -6,8 +6,8 @@ package main
 import "C"
 
 import (
-	"github.com/dell/gocsi/mock/provider"
-	"github.com/dell/gocsi/mock/service"
+	"github.com/khareRajshree/gocsi/mock/provider"
+	"github.com/khareRajshree/gocsi/mock/service"
 )
 
 ////////////////////////////////////////////////////////////////////////////////

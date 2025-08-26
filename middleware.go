@@ -8,13 +8,13 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	csictx "github.com/dell/gocsi/context"
-	"github.com/dell/gocsi/middleware/logging"
-	"github.com/dell/gocsi/middleware/requestid"
-	"github.com/dell/gocsi/middleware/serialvolume"
-	"github.com/dell/gocsi/middleware/serialvolume/etcd"
-	"github.com/dell/gocsi/middleware/specvalidator"
-	"github.com/dell/gocsi/utils/rpcs"
+	csictx "github.com/khareRajshree/gocsi/context"
+	"github.com/khareRajshree/gocsi/middleware/logging"
+	"github.com/khareRajshree/gocsi/middleware/requestid"
+	"github.com/khareRajshree/gocsi/middleware/serialvolume"
+	"github.com/khareRajshree/gocsi/middleware/serialvolume/etcd"
+	"github.com/khareRajshree/gocsi/middleware/specvalidator"
+	"github.com/khareRajshree/gocsi/utils/rpcs"
 )
 
 func (sp *StoragePlugin) initInterceptors(ctx context.Context) {

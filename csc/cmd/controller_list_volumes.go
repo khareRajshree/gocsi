@@ -8,7 +8,7 @@ import (
 
 	"github.com/container-storage-interface/spec/lib/go/csi"
 
-	utils "github.com/dell/gocsi/utils/csi"
+	utils "github.com/khareRajshree/gocsi/utils/csi"
 )
 
 var listVolumes struct {

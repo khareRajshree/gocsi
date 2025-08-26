@@ -10,7 +10,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	csictx "github.com/dell/gocsi/context"
+	csictx "github.com/khareRajshree/gocsi/context"
 )
 
 type interceptor struct {

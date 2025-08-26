@@ -26,9 +26,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 
-	csictx "github.com/dell/gocsi/context"
-	utils "github.com/dell/gocsi/utils/csi"
-	"github.com/dell/gocsi/utils/middleware"
+	csictx "github.com/khareRajshree/gocsi/context"
+	utils "github.com/khareRajshree/gocsi/utils/csi"
+	"github.com/khareRajshree/gocsi/utils/middleware"
 )
 
 var osExit = func(code int) {
